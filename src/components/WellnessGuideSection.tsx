@@ -150,7 +150,7 @@ const WellnessGuideSection = () => {
           </div>
         </div>
 
-        {/* Imagen del cuerpo humano interactivo */}
+        {/* Imagen del cuerpo humano interactivo con mejor posicionamiento */}
         <div className="flex justify-center mb-8 sm:mb-12">
           <div className="relative w-full max-w-xs sm:max-w-sm lg:max-w-md">
             <img 
@@ -159,57 +159,68 @@ const WellnessGuideSection = () => {
               className="w-full h-auto rounded-lg shadow-lg"
             />
             
-            {/* Áreas clickeables - ajustadas para móviles */}
-            {/* Cerebro */}
+            {/* Cerebro - posicionado en la cabeza */}
             <button
               onClick={() => handleBodyPartClick('head')}
-              className="absolute w-12 h-12 sm:w-16 sm:h-16 bg-sage-600/20 hover:bg-sage-600/40 rounded-full border-2 border-sage-600 transition-all duration-200 hover:scale-110 active:scale-95"
-              style={{ top: '8%', right: '15%' }}
+              className="absolute w-10 h-10 sm:w-12 sm:h-12 bg-sage-600/30 hover:bg-sage-600/50 rounded-full border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
+              style={{ top: '6%', left: '50%', transform: 'translateX(-50%)' }}
               title="Cabeza (Estrés y sueño)"
-            />
+            >
+              <span className="text-xs font-bold text-sage-800">1</span>
+            </button>
             
-            {/* Pulmones */}
+            {/* Pulmones - lado izquierdo del pecho */}
             <button
               onClick={() => handleBodyPartClick('lungs')}
-              className="absolute w-16 h-12 sm:w-20 sm:h-16 bg-sage-600/20 hover:bg-sage-600/40 rounded-lg border-2 border-sage-600 transition-all duration-200 hover:scale-110 active:scale-95"
-              style={{ top: '30%', left: '15%' }}
+              className="absolute w-12 h-10 sm:w-14 sm:h-12 bg-sage-600/30 hover:bg-sage-600/50 rounded-lg border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
+              style={{ top: '24%', left: '25%' }}
               title="Pulmones"
-            />
+            >
+              <span className="text-xs font-bold text-sage-800">2</span>
+            </button>
             
-            {/* Corazón */}
+            {/* Corazón - lado derecho del pecho */}
             <button
               onClick={() => handleBodyPartClick('heart')}
-              className="absolute w-10 h-10 sm:w-12 sm:h-12 bg-sage-600/20 hover:bg-sage-600/40 rounded-full border-2 border-sage-600 transition-all duration-200 hover:scale-110 active:scale-95"
-              style={{ top: '32%', right: '12%' }}
+              className="absolute w-10 h-10 sm:w-12 sm:h-12 bg-sage-600/30 hover:bg-sage-600/50 rounded-full border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
+              style={{ top: '26%', right: '25%' }}
               title="Presión arterial y colesterol (Corazón)"
-            />
+            >
+              <span className="text-xs font-bold text-sage-800">6</span>
+            </button>
             
-            {/* Hígado */}
+            {/* Hígado - lado derecho del abdomen superior */}
             <button
               onClick={() => handleBodyPartClick('liver')}
-              className="absolute w-12 h-10 sm:w-16 sm:h-12 bg-sage-600/20 hover:bg-sage-600/40 rounded-lg border-2 border-sage-600 transition-all duration-200 hover:scale-110 active:scale-95"
-              style={{ top: '45%', right: '8%' }}
+              className="absolute w-12 h-10 sm:w-14 sm:h-12 bg-sage-600/30 hover:bg-sage-600/50 rounded-lg border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
+              style={{ top: '42%', right: '18%' }}
               title="Hígado"
-            />
+            >
+              <span className="text-xs font-bold text-sage-800">5</span>
+            </button>
             
-            {/* Sistema digestivo */}
+            {/* Sistema digestivo - centro del abdomen */}
             <button
               onClick={() => handleBodyPartClick('digestive')}
-              className="absolute w-14 h-16 sm:w-18 sm:h-20 bg-sage-600/20 hover:bg-sage-600/40 rounded-lg border-2 border-sage-600 transition-all duration-200 hover:scale-110 active:scale-95"
-              style={{ top: '55%', left: '35%', right: '35%' }}
+              className="absolute w-14 h-14 sm:w-16 sm:h-16 bg-sage-600/30 hover:bg-sage-600/50 rounded-lg border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
+              style={{ top: '50%', left: '50%', transform: 'translateX(-50%)' }}
               title="Sistema digestivo"
-            />
+            >
+              <span className="text-xs font-bold text-sage-800">4</span>
+            </button>
             
-            {/* Riñones */}
+            {/* Riñones - lados del abdomen medio */}
             <button
               onClick={() => handleBodyPartClick('kidneys')}
-              className="absolute w-12 h-12 sm:w-14 sm:h-16 bg-sage-600/20 hover:bg-sage-600/40 rounded-lg border-2 border-sage-600 transition-all duration-200 hover:scale-110 active:scale-95"
-              style={{ top: '48%', left: '8%' }}
+              className="absolute w-10 h-12 sm:w-12 sm:h-14 bg-sage-600/30 hover:rage-600/50 rounded-lg border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
+              style={{ top: '45%', left: '15%' }}
               title="Riñones"
-            />
+            >
+              <span className="text-xs font-bold text-sage-800">3</span>
+            </button>
             
             <p className="text-center text-sage-600 mt-4 text-xs sm:text-sm px-4">
-              Haz clic en las áreas resaltadas para explorar recomendaciones específicas
+              Haz clic en las áreas numeradas para explorar recomendaciones específicas
             </p>
           </div>
         </div>
