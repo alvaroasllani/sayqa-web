@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,36 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Natural palette for Sayqa
+				sage: {
+					50: '#f6f9f7',
+					100: '#edf4ef',
+					200: '#d6eedd',
+					300: '#b8ddc4',
+					400: '#94c8a5',
+					500: '#72b387',
+					600: '#579069',
+					700: '#477454',
+					800: '#3a5c43',
+					900: '#314d38'
+				},
+				earth: {
+					50: '#faf9f7',
+					100: '#f3f1ed',
+					200: '#e6e1d9',
+					300: '#d6ccc0',
+					400: '#c2b2a1',
+					500: '#b09986',
+					600: '#9d8470',
+					700: '#836d5c',
+					800: '#6b5a4e',
+					900: '#574a42'
 				}
+			},
+			fontFamily: {
+				'display': ['Playfair Display', 'serif'],
+				'body': ['Inter', 'system-ui', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +114,33 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'scale-in': {
+					'0%': {
+						transform: 'scale(0.95)',
+						opacity: '0'
+					},
+					'100%': {
+						transform: 'scale(1)',
+						opacity: '1'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.3s ease-out',
+				'scale-in': 'scale-in 0.2s ease-out'
 			}
 		}
 	},
