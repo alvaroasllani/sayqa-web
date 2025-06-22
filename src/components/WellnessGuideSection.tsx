@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { X, Info } from 'lucide-react';
 
@@ -7,7 +6,7 @@ const WellnessGuideSection = () => {
 
   const bodyParts = {
     head: {
-      name: "Cabeza (Estrés y sueño)",
+      name: "Cerebro",
       products: [
         { 
           name: "Toronjil (melisa)", 
@@ -52,7 +51,7 @@ const WellnessGuideSection = () => {
       ]
     },
     digestive: {
-      name: "Sistema digestivo (estómago, cólon e intestinos)",
+      name: "Sistema digestivo",
       products: [
         { 
           name: "Sedrón (verbena)", 
@@ -87,7 +86,7 @@ const WellnessGuideSection = () => {
       ]
     },
     heart: {
-      name: "Presión arterial y colesterol (Corazón)",
+      name: "Corazón",
       products: [
         { 
           name: "Jamaica", 
@@ -141,12 +140,12 @@ const WellnessGuideSection = () => {
         {/* Lista de partes del cuerpo */}
         <div className="mb-6 sm:mb-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-4 max-w-4xl mx-auto text-sm sm:text-base">
-            <div className="text-sage-700 p-2">1. Cabeza (Estrés y sueño)</div>
+            <div className="text-sage-700 p-2">1. Cerebro</div>
             <div className="text-sage-700 p-2">2. Pulmones</div>
             <div className="text-sage-700 p-2">3. Riñones</div>
-            <div className="text-sage-700 p-2">4. Sistema digestivo (estómago, cólon e intestinos)</div>
+            <div className="text-sage-700 p-2">4. Sistema digestivo</div>
             <div className="text-sage-700 p-2">5. Hígado</div>
-            <div className="text-sage-700 p-2">6. Presión arterial y colesterol (Corazón)</div>
+            <div className="text-sage-700 p-2">6. Corazón</div>
           </div>
         </div>
 
@@ -159,64 +158,64 @@ const WellnessGuideSection = () => {
               className="w-full h-auto rounded-lg shadow-lg"
             />
             
-            {/* Cerebro - posicionado en la cabeza */}
+            {/* Cerebro - sobre el icono del cerebro en la parte superior derecha */}
             <button
               onClick={() => handleBodyPartClick('head')}
               className="absolute w-10 h-10 sm:w-12 sm:h-12 bg-sage-600/30 hover:bg-sage-600/50 rounded-full border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
-              style={{ top: '6%', left: '50%', transform: 'translateX(-50%)' }}
-              title="Cabeza (Estrés y sueño)"
+              style={{ top: '8%', right: '8%' }}
+              title="Cerebro"
             >
               <span className="text-xs font-bold text-sage-800">1</span>
             </button>
             
-            {/* Pulmones - lado izquierdo del pecho */}
+            {/* Pulmones - sobre el icono de pulmones en la parte izquierda */}
             <button
               onClick={() => handleBodyPartClick('lungs')}
               className="absolute w-12 h-10 sm:w-14 sm:h-12 bg-sage-600/30 hover:bg-sage-600/50 rounded-lg border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
-              style={{ top: '24%', left: '25%' }}
+              style={{ top: '15%', left: '5%' }}
               title="Pulmones"
             >
               <span className="text-xs font-bold text-sage-800">2</span>
             </button>
             
-            {/* Corazón - lado derecho del pecho */}
+            {/* Riñones - sobre el icono de riñones en la parte izquierda media */}
             <button
-              onClick={() => handleBodyPartClick('heart')}
-              className="absolute w-10 h-10 sm:w-12 sm:h-12 bg-sage-600/30 hover:bg-sage-600/50 rounded-full border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
-              style={{ top: '26%', right: '25%' }}
-              title="Presión arterial y colesterol (Corazón)"
+              onClick={() => handleBodyPartClick('kidneys')}
+              className="absolute w-10 h-12 sm:w-12 sm:h-14 bg-sage-600/30 hover:bg-sage-600/50 rounded-lg border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
+              style={{ top: '45%', left: '8%' }}
+              title="Riñones"
             >
-              <span className="text-xs font-bold text-sage-800">6</span>
+              <span className="text-xs font-bold text-sage-800">3</span>
             </button>
             
-            {/* Hígado - lado derecho del abdomen superior */}
-            <button
-              onClick={() => handleBodyPartClick('liver')}
-              className="absolute w-12 h-10 sm:w-14 sm:h-12 bg-sage-600/30 hover:bg-sage-600/50 rounded-lg border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
-              style={{ top: '42%', right: '18%' }}
-              title="Hígado"
-            >
-              <span className="text-xs font-bold text-sage-800">5</span>
-            </button>
-            
-            {/* Sistema digestivo - centro del abdomen */}
+            {/* Sistema digestivo - sobre el icono del sistema digestivo justo debajo de riñones */}
             <button
               onClick={() => handleBodyPartClick('digestive')}
               className="absolute w-14 h-14 sm:w-16 sm:h-16 bg-sage-600/30 hover:bg-sage-600/50 rounded-lg border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
-              style={{ top: '50%', left: '50%', transform: 'translateX(-50%)' }}
+              style={{ bottom: '15%', left: '12%' }}
               title="Sistema digestivo"
             >
               <span className="text-xs font-bold text-sage-800">4</span>
             </button>
             
-            {/* Riñones - lados del abdomen medio */}
+            {/* Hígado - sobre el icono del hígado en la parte derecha */}
             <button
-              onClick={() => handleBodyPartClick('kidneys')}
-              className="absolute w-10 h-12 sm:w-12 sm:h-14 bg-sage-600/30 hover:rage-600/50 rounded-lg border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
-              style={{ top: '45%', left: '15%' }}
-              title="Riñones"
+              onClick={() => handleBodyPartClick('liver')}
+              className="absolute w-12 h-10 sm:w-14 sm:h-12 bg-sage-600/30 hover:bg-sage-600/50 rounded-lg border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
+              style={{ top: '50%', right: '5%' }}
+              title="Hígado"
             >
-              <span className="text-xs font-bold text-sage-800">3</span>
+              <span className="text-xs font-bold text-sage-800">5</span>
+            </button>
+            
+            {/* Corazón - sobre el icono del corazón en la parte superior derecha */}
+            <button
+              onClick={() => handleBodyPartClick('heart')}
+              className="absolute w-10 h-10 sm:w-12 sm:h-12 bg-sage-600/30 hover:bg-sage-600/50 rounded-full border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
+              style={{ top: '25%', right: '12%' }}
+              title="Corazón"
+            >
+              <span className="text-xs font-bold text-sage-800">6</span>
             </button>
             
             <p className="text-center text-sage-600 mt-4 text-xs sm:text-sm px-4">
