@@ -8,7 +8,7 @@ const CatalogSection = () => {
       products: [
         {
           id: 1,
-          image: "/src/img/prostata/043141e7-b31e-4e63-b0c4-5262144bde6a.jpeg",
+          image: "/img/prostata/043141e7-b31e-4e63-b0c4-5262144bde6a.jpeg",
           benefits: ["Salud masculina", "Anti-inflamatorio", "Preventivo"]
         }
       ]
@@ -19,7 +19,7 @@ const CatalogSection = () => {
       products: [
         {
           id: 2,
-          image: "/src/img/enfermedades_mujer/390e69e8-bf31-4228-860d-85952efeca14.jpeg",
+          image: "/img/enfermedades_mujer/390e69e8-bf31-4228-860d-85952efeca14.jpeg",
           benefits: ["Salud femenina", "Hormonal", "Bienestar"]
         }
       ]
@@ -30,12 +30,12 @@ const CatalogSection = () => {
       products: [
         {
           id: 3,
-          image: "/src/img/dolor_muscular/e1c15af8-3dfa-4885-9fbb-32084abfac0e.jpeg",
+          image: "/img/dolor_muscular/e1c15af8-3dfa-4885-9fbb-32084abfac0e.jpeg",
           benefits: ["Anti-inflamatorio", "Analgésico", "Relajante"]
         },
         {
           id: 4,
-          image: "/src/img/dolor_muscular/0a26d15c-864c-4cd8-8e77-04c4b653aa16.jpeg",
+          image: "/img/dolor_muscular/0a26d15c-864c-4cd8-8e77-04c4b653aa16.jpeg",
           benefits: ["Anti-inflamatorio", "Analgésico", "Relajante"]
         }
       ]
@@ -46,27 +46,27 @@ const CatalogSection = () => {
       products: [
         {
           id: 5,
-          image: "/src/img/suplementos/49a49a47-29d0-4042-936a-532a3e2a9805.jpeg",
+          image: "/img/suplementos/49a49a47-29d0-4042-936a-532a3e2a9805.jpeg",
           benefits: ["Nutritivo", "Fortalecedor", "Energizante"]
         },
         {
           id: 6,
-          image: "/src/img/suplementos/3ab7db3c-f4a2-43db-84d6-56c799430947.jpeg",
+          image: "/img/suplementos/3ab7db3c-f4a2-43db-84d6-56c799430947.jpeg",
           benefits: ["Nutritivo", "Fortalecedor", "Energizante"]
         },
         {
           id: 7,
-          image: "/src/img/suplementos/37802f30-3a3c-4a4b-a81b-1f5b52469e8c.jpeg",
+          image: "/img/suplementos/37802f30-3a3c-4a4b-a81b-1f5b52469e8c.jpeg",
           benefits: ["Nutritivo", "Fortalecedor", "Energizante"]
         },
         {
           id: 8,
-          image: "/src/img/suplementos/8e2a84ad-6d6b-40c6-b015-1d101951e772.jpeg",
+          image: "/img/suplementos/8e2a84ad-6d6b-40c6-b015-1d101951e772.jpeg",
           benefits: ["Nutritivo", "Fortalecedor", "Energizante"]
         },
         {
           id: 9,
-          image: "/src/img/suplementos/564debb5-271b-4ca9-aec5-6a5b96487d90.jpeg",
+          image: "/img/suplementos/564debb5-271b-4ca9-aec5-6a5b96487d90.jpeg",
           benefits: ["Nutritivo", "Fortalecedor", "Energizante"]
         }
       ]
@@ -77,12 +77,12 @@ const CatalogSection = () => {
       products: [
         {
           id: 10,
-          image: "/src/img/fortalezedor_huesos/4419c538-c76b-474a-9e0b-b49d6b96b66a.jpeg",
+          image: "/img/fortalezedor_huesos/4419c538-c76b-474a-9e0b-b49d6b96b66a.jpeg",
           benefits: ["Calcio natural", "Fortalecedor", "Preventivo"]
         },
         {
           id: 11,
-          image: "/src/img/fortalezedor_huesos/c220d7ae-3969-4bfd-acda-8849a6fc03d0.jpeg",
+          image: "/img/fortalezedor_huesos/c220d7ae-3969-4bfd-acda-8849a6fc03d0.jpeg",
           benefits: ["Calcio natural", "Fortalecedor", "Preventivo"]
         }
       ]
@@ -93,12 +93,12 @@ const CatalogSection = () => {
       products: [
         {
           id: 12,
-          image: "/src/img/cicatrizante/f1f5139f-a0cd-4430-8fa9-ab904cca0277.jpeg",
+          image: "/img/cicatrizante/f1f5139f-a0cd-4430-8fa9-ab904cca0277.jpeg",
           benefits: ["Regenerativo", "Curativo", "Natural"]
         },
         {
           id: 13,
-          image: "/src/img/cicatrizante/f2cbce21-6a5e-44b0-afb0-25d5ab313cda.jpeg",
+          image: "/img/cicatrizante/f2cbce21-6a5e-44b0-afb0-25d5ab313cda.jpeg",
           benefits: ["Regenerativo", "Curativo", "Natural"]
         }
       ]
@@ -109,12 +109,12 @@ const CatalogSection = () => {
       products: [
         {
           id: 14,
-          image: "/src/img/depurativo/3a51204d-f3f6-4fd7-8abb-ba2f6caab767.jpeg",
+          image: "/img/depurativo/3a51204d-f3f6-4fd7-8abb-ba2f6caab767.jpeg",
           benefits: ["Detox", "Purificante", "Digestivo"]
         },
         {
           id: 15,
-          image: "/src/img/depurativo/5a976ef3-1565-4464-8891-cfd12a55a291.jpeg",
+          image: "/img/depurativo/5a976ef3-1565-4464-8891-cfd12a55a291.jpeg",
           benefits: ["Detox", "Purificante", "Digestivo"]
         }
       ]
@@ -125,12 +125,12 @@ const CatalogSection = () => {
       products: [
         {
           id: 16,
-          image: "/src/img/sistema_nervioso/3a51204d-f3f6-4fd7-8abb-ba2f6caab767.jpeg",
+          image: "/img/sistema_nervioso/3a51204d-f3f6-4fd7-8abb-ba2f6caab767.jpeg",
           benefits: ["Relajante", "Calmante", "Equilibrio"]
         },
         {
           id: 17,
-          image: "/src/img/sistema_nervioso/7253a273-f4e6-4bc7-b5f6-61abcadda282.jpeg",
+          image: "/img/sistema_nervioso/7253a273-f4e6-4bc7-b5f6-61abcadda282.jpeg",
           benefits: ["Relajante", "Calmante", "Equilibrio"]
         }
       ]
@@ -141,27 +141,27 @@ const CatalogSection = () => {
       products: [
         {
           id: 18,
-          image: "/src/img/adelgazantes/5dfca16c-5fde-4367-9cf0-51829f585770.jpeg",
+          image: "/img/adelgazantes/5dfca16c-5fde-4367-9cf0-51829f585770.jpeg",
           benefits: ["Quema grasa", "Saciante", "Metabolismo"]
         },
         {
           id: 19,
-          image: "/src/img/adelgazantes/98dba0df-53c6-4c20-985d-4a1dfb928176.jpeg",
+          image: "/img/adelgazantes/98dba0df-53c6-4c20-985d-4a1dfb928176.jpeg",
           benefits: ["Quema grasa", "Saciante", "Metabolismo"]
         },
         {
           id: 20,
-          image: "/src/img/adelgazantes/ce3d7006-a4a9-4daa-9d1a-749f8f9f356d.jpeg",
+          image: "/img/adelgazantes/ce3d7006-a4a9-4daa-9d1a-749f8f9f356d.jpeg",
           benefits: ["Quema grasa", "Saciante", "Metabolismo"]
         },
         {
           id: 21,
-          image: "/src/img/adelgazantes/bbb7a4e0-3dc0-4e89-ae7c-6f832414f2ea.jpeg",
+          image: "/img/adelgazantes/bbb7a4e0-3dc0-4e89-ae7c-6f832414f2ea.jpeg",
           benefits: ["Quema grasa", "Saciante", "Metabolismo"]
         },
         {
           id: 22,
-          image: "/src/img/adelgazantes/74d5b275-aa10-4335-adce-6af611022a3f.jpeg",
+          image: "/img/adelgazantes/74d5b275-aa10-4335-adce-6af611022a3f.jpeg",
           benefits: ["Quema grasa", "Saciante", "Metabolismo"]
         }
       ]

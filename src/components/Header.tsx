@@ -1,4 +1,3 @@
-
 import { Leaf, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
@@ -28,8 +27,12 @@ const Header = ({ activeSection, setActiveSection }: HeaderProps) => {
         <div className="flex items-center justify-between">
           {/* Logo y título */}
           <div className="flex items-center space-x-2 sm:space-x-4 flex-1">
-            <div className="flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 bg-sage-600 rounded-full shadow-lg flex-shrink-0">
-              <Leaf className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
+            <div className="flex items-center justify-center w-12 h-12 sm:w-16 sm:h-16 bg-white rounded-full shadow-lg flex-shrink-0 overflow-hidden">
+              <img 
+                src="/img/logo.jpeg" 
+                alt="Sayqa Logo" 
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="min-w-0">
               <h1 className="text-lg sm:text-2xl lg:text-3xl font-display font-bold text-sage-800 leading-tight">
