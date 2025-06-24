@@ -9,44 +9,54 @@ const WellnessGuideSection = () => {
       name: "Cerebro",
       products: [
         { 
-          name: "Toronjil (melisa)", 
-          properties: "Propiedades calmantes para el estrés, ansiedad y mejora del sueño.",
-          recommendation: "Infusión con una cucharada de hojas frescas o secas en agua caliente, reposar 10 minutos. Beber 1-3 veces al día."
+          name: "Multivitamínico Sangre de toro", 
+          properties: "Contiene Vitaminas A, D, B12, Palo Dulce y Omega 3. Proporciona más energía, defensas fuertes, huesos sanos, mente ágil y corazón fuerte.",
+          recommendation: "Tomar las cápsulas 3 veces al día, 30 minutos antes de cada comida."
         },
         { 
-          name: "Llantén", 
-          properties: "Alivio de infecciones respiratorias y tos.",
-          recommendation: "Té con 3-5 hojas frescas o secas en agua caliente, reposar 10 minutos. Beber 1-2 veces al día."
+          name: "Complejo B12 Antianémico", 
+          properties: "Contiene Vitaminas A, D, B12, Palo Dulce y Omega 3. Reconstituyente cerebral que regenera las neuronas.",
+          recommendation: "Tomar las cápsulas 3 veces al día, 30 minutos antes de cada comida."
+        },
+        { 
+          name: "Cerebral memorex", 
+          properties: "Contiene Fitina, Ginseng, Ginkgo Biloba, Nueces, Malta, Aguacate y Maca. Reconstituyente cerebral y antidepresivo.",
+          recommendation: "Tomar las cápsulas 3 veces al día, 30 minutos antes de cada comida."
+        },
+        { 
+          name: "Multicerebral", 
+          properties: "Reforzado con Magnesio, Calcio, Huevo de Angelote y Levadura de Cerveza. Antianémico que apoya la salud general.",
+          recommendation: "Tomar las cápsulas 3 veces al día, 30 minutos antes de cada comida."
         }
       ]
     },
     lungs: {
-      name: "Pulmones",
+      name: "Sistema Nervioso",
       products: [
         { 
-          name: "Menta", 
-          properties: "Mejora de problemas respiratorios y alivio de resfriados",
-          recommendation: "Infusión con 1 cucharadita de hojas secas en agua caliente. Reposar 10 minutos y beber después de las comidas."
+          name: "Nerviosan", 
+          properties: "Regula el sistema nervioso, combate el insomnio, apoya deficiencias del corazón, alivia el estrés y disminuye los mareos.",
+          recommendation: "Tomar las cápsulas 3 veces al día, 30 minutos antes de cada comida."
         },
         { 
-          name: "Hoja de guanábana", 
-          properties: "Alivio de infecciones respiratorias y tos",
-          recommendation: "Té con 1 cucharadita de hojas secas en agua caliente. Beber caliente."
+          name: "Noni/Anona Graviola", 
+          properties: "Estimula y regula el sistema inmunológico, regenera células y tejidos, potencial anticancerígeno y antitumoral, cicatrizante de heridas, regula los niveles de glucosa y alivia dolencias articulares y dolores musculares.",
+          recommendation: "Tomar las cápsulas 3 veces al día, 30 minutos antes de cada comida."
         }
       ]
     },
     kidneys: {
-      name: "Riñones",
+      name: "Dolor Muscular",
       products: [
         { 
-          name: "Cabello de choclo", 
-          properties: "Diurético para problemas renales y urinarios",
-          recommendation: "Infusión con una cucharada de cabello de choclo en agua caliente, reposar 10 minutos. Beber 1-2 veces al día"
+          name: "Chuchuguaza", 
+          properties: "Alivio efectivo para dolores y lesiones, dolores reumáticos y artritis, lesiones musculares y articulares (golpes, torceduras), aceleración de la recuperación.",
+          recommendation: "Aplicar en la zona afectada según indicaciones del envase."
         },
         { 
-          name: "Rompe piedra", 
-          properties: "Prevención y disolución de cálculos renales.",
-          recommendation: "Infusión con 2 cucharadas de planta seca en 1 litro de agua hervida. Reposar 10 minutos. Beber durante el día."
+          name: "Uña de gato", 
+          properties: "Efectivo para dolores reumáticos y artritis, lesiones dolorosas de músculos, tendones y articulaciones, torceduras y esguinces, lumbago, picadura de mosquitos e insectos, artrosis.",
+          recommendation: "Tomar las cápsulas 3 veces al día, 30 minutos antes de cada comida."
         }
       ]
     },
@@ -54,19 +64,29 @@ const WellnessGuideSection = () => {
       name: "Sistema digestivo",
       products: [
         { 
-          name: "Sedrón (verbena)", 
-          properties: "Ayuda en la digestión y reducción de gases.",
-          recommendation: "Infusión con 1 cucharadita de hojas secas en agua caliente. Reposar 10 minutos y beber después de las comidas."
+          name: "Hercampuri", 
+          properties: "Protege el hígado y la sangre, elimina grasas y reduce el colesterol, desinflama hígado y vesícula, combate barros y espinillas, normaliza la presión arterial, purifica la sangre.",
+          recommendation: "Tomar las cápsulas 3 veces al día, 30 minutos antes de cada comida."
         },
         { 
-          name: "Paico", 
-          properties: "Combate parásitos intestinales y cólicos.",
-          recommendation: "Infusión con 1 cucharadita de hojas frescas o secas en agua caliente. Reposar 10 minutos. Beber después de las comidas."
+          name: "Adelgazante forte", 
+          properties: "Controla la obesidad y reduce el colesterol, desintoxica la sangre y limpia el hígado, limpia las venas de glucosa y colesterol, adelgazante natural.",
+          recommendation: "Tomar las cápsulas 3 veces al día, 30 minutos antes de cada comida."
         },
         { 
-          name: "Hojas de sen", 
-          properties: "Laxante natural para el estreñimiento.",
-          recommendation: "Té con 1-2 gramos de hojas secas en agua caliente. Reposar 5-10 minutos y beber antes de dormir."
+          name: "Ajo, apio y perejil", 
+          properties: "Purifica la sangre, disminuye la presión alta, relajante natural, reduce colesterol y triglicéridos, ayuda a disminuir el apetito, reduce la grasa corporal, ayuda a eliminar la celulitis.",
+          recommendation: "Tomar las cápsulas 3 veces al día, 30 minutos antes de cada comida."
+        },
+        { 
+          name: "Chupa Panza", 
+          properties: "Desinflama el hígado, controla la obesidad y reduce el colesterol, desintoxica la sangre, limpia las venas de glucosa y colesterol, adelgazante natural, quema grasa.",
+          recommendation: "Tomar las cápsulas 3 veces al día, 30 minutos antes de cada comida."
+        },
+        { 
+          name: "Plan 30 días", 
+          properties: "Elaborado con hierbas de acción diurética, contiene hierbas de acción laxante suave, favorece la eliminación de líquidos y toxinas.",
+          recommendation: "Seguir las indicaciones del plan de 30 días incluido en el envase."
         }
       ]
     },
@@ -74,14 +94,14 @@ const WellnessGuideSection = () => {
       name: "Hígado",
       products: [
         { 
-          name: "Boldo", 
-          properties: "Propiedades digestivas y hepáticas.",
-          recommendation: "Infusión con 1-2 cucharaditas de hojas secas en agua caliente. Reposar 10 minutos y beber después de las comidas (máximo 2-3 veces por semana)."
+          name: "Cúrcuma", 
+          properties: "Previene gases y flatulencias, alivia inflamaciones gastrointestinales, úlceras gástricas y gastrointestinales, beneficioso para artritis y artrosis, reduce triglicéridos en la sangre, protege riñones, hígado y corazón.",
+          recommendation: "Tomar las cápsulas 3 veces al día, 30 minutos antes de cada comida."
         },
         { 
-          name: "Alcachofa", 
-          properties: "Mejora del funcionamiento hepático y depurativa.",
-          recommendation: "Té con 2-3 hojas secas en agua hervida. Beber después de las comidas."
+          name: "Graviola", 
+          properties: "Regenera células y repotencia el sistema inmunológico, actúa como antiinflamatorio y antioxidante, alivia el dolor (analgésico), potencial anticancerígeno, beneficioso para dolencias renales, úlceras internas y cólicos.",
+          recommendation: "Tomar las cápsulas 3 veces al día, 30 minutos antes de cada comida."
         }
       ]
     },
@@ -89,9 +109,14 @@ const WellnessGuideSection = () => {
       name: "Corazón",
       products: [
         { 
-          name: "Jamaica", 
-          properties: "Baja la presión arterial y combate el colesterol malo.",
-          recommendation: "Infusión con 10-15 flores en 1 litro de agua hervida. Reposar 10 minutos. Beber frío o caliente."
+          name: "Ajos", 
+          properties: "Alivia eficazmente tos, bronquitis y asma, ayuda a combatir la gripe, previene la arteriosclerosis, el colesterol alto y la presión arterial alta.",
+          recommendation: "Tomar las cápsulas 3 veces al día, 30 minutos antes de cada comida."
+        },
+        { 
+          name: "Cúrcuma", 
+          properties: "Previene gases y flatulencias, alivia inflamaciones gastrointestinales, reduce triglicéridos en la sangre, protege riñones, hígado y corazón.",
+          recommendation: "Tomar las cápsulas 3 veces al día, 30 minutos antes de cada comida."
         }
       ]
     }
@@ -141,8 +166,8 @@ const WellnessGuideSection = () => {
         <div className="mb-6 sm:mb-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-4 max-w-4xl mx-auto text-sm sm:text-base">
             <div className="text-sage-700 p-2">1. Cerebro</div>
-            <div className="text-sage-700 p-2">2. Pulmones</div>
-            <div className="text-sage-700 p-2">3. Riñones</div>
+            <div className="text-sage-700 p-2">2. Sistema Nervioso</div>
+            <div className="text-sage-700 p-2">3. Dolor Muscular</div>
             <div className="text-sage-700 p-2">4. Sistema digestivo</div>
             <div className="text-sage-700 p-2">5. Hígado</div>
             <div className="text-sage-700 p-2">6. Corazón</div>
@@ -168,22 +193,22 @@ const WellnessGuideSection = () => {
               <span className="text-xs font-bold text-sage-800">1</span>
             </button>
             
-            {/* Pulmones - sobre el icono de pulmones en la parte izquierda */}
+            {/* Sistema Nervioso - sobre el icono de pulmones en la parte izquierda */}
             <button
               onClick={() => handleBodyPartClick('lungs')}
               className="absolute w-12 h-10 sm:w-14 sm:h-12 bg-sage-600/30 hover:bg-sage-600/50 rounded-lg border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
               style={{ top: '15%', left: '5%' }}
-              title="Pulmones"
+              title="Sistema Nervioso"
             >
               <span className="text-xs font-bold text-sage-800">2</span>
             </button>
             
-            {/* Riñones - sobre el icono de riñones en la parte izquierda media */}
+            {/* Dolor Muscular - sobre el icono de riñones en la parte izquierda media */}
             <button
               onClick={() => handleBodyPartClick('kidneys')}
               className="absolute w-10 h-12 sm:w-12 sm:h-14 bg-sage-600/30 hover:bg-sage-600/50 rounded-lg border-2 border-sage-600 transition-all duration-300 hover:scale-110 active:scale-95 flex items-center justify-center"
               style={{ top: '45%', left: '8%' }}
-              title="Riñones"
+              title="Dolor Muscular"
             >
               <span className="text-xs font-bold text-sage-800">3</span>
             </button>
