@@ -1,4 +1,3 @@
-
 import { Facebook, MessageCircle } from 'lucide-react';
 
 const ContactSection = () => {
@@ -21,8 +20,8 @@ const ContactSection = () => {
           <div className="relative order-2 lg:order-1">
             <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl max-w-md mx-auto lg:max-w-none">
               <img
-                src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?w=600&h=600&fit=crop"
-                alt="Infusiones naturales y hierbas medicinales"
+                src="/img/logo.jpeg"
+                alt="Sayqa - Medicina Natural Logo"
                 className="w-full h-full object-cover"
               />
             </div>
