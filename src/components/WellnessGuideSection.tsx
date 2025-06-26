@@ -141,7 +141,7 @@ const WellnessGuideSection = () => {
             <p>
               Aquí podrás identificar de manera sencilla las áreas del cuerpo donde sientes 
               malestar o incomodidad. Al seleccionar la parte del cuerpo afectada, te brindaremos 
-              recomendaciones personalizadas con productos naturales de Inti Mate que pueden 
+              recomendaciones personalizadas con productos naturales de Sayqa que pueden 
               ayudarte a mejorar tu bienestar.
             </p>
             

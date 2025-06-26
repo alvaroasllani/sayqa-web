@@ -77,6 +77,52 @@ const ContactSection = () => {
             </div>
           </div>
         </div>
+
+        {/* Sección Misión y Visión */}
+        <div className="mt-16 sm:mt-20">
+          <div className="text-center mb-12">
+            <h3 className="text-2xl sm:text-3xl font-display font-bold text-sage-800 mb-8">
+              Nuestra Empresa
+            </h3>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
+            {/* Misión */}
+            <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg hover-lift">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-sage-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-xl">M</span>
+                </div>
+                <h4 className="text-xl sm:text-2xl font-display font-bold text-sage-800">
+                  Misión
+                </h4>
+              </div>
+              <p className="text-sage-600 leading-relaxed text-center">
+                En SAYQA ofrecemos productos naturales que promuevan el bienestar integral, 
+                combinando el conocimiento ancestral con prácticas sostenibles, mediante una 
+                comercialización digital dirigida a personas que buscan una vida más saludable 
+                y consciente.
+              </p>
+            </div>
+
+            {/* Visión */}
+            <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-lg hover-lift">
+              <div className="text-center mb-6">
+                <div className="w-16 h-16 bg-sage-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <span className="text-white font-bold text-xl">V</span>
+                </div>
+                <h4 className="text-xl sm:text-2xl font-display font-bold text-sage-800">
+                  Visión
+                </h4>
+              </div>
+              <p className="text-sage-600 leading-relaxed text-center">
+                Consolidarnos como una marca líder en el mercado nacional de productos naturales, 
+                ampliando nuestra presencia, diversificando nuestra oferta y adaptándonos a las 
+                necesidades de nuestros clientes.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

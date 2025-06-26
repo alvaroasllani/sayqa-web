@@ -38,11 +38,6 @@ const Header = ({ activeSection, setActiveSection }: HeaderProps) => {
               <h1 className="text-lg sm:text-2xl lg:text-3xl font-display font-bold text-sage-800 leading-tight">
                 Sayqa – Medicina Natural
               </h1>
-              <p className="text-xs sm:text-sm text-sage-600 mt-1 sm:mt-2 leading-relaxed hidden sm:block lg:max-w-2xl">
-                Ofrecemos infusiones hechas de hierbas medicinales tradicionales, elaboradas 
-                cuidadosamente para tu bienestar y salud con el objetivo de ser una alternativa 
-                viable para el cuidado del cuerpo.
-              </p>
             </div>
           </div>
           
